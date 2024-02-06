@@ -19,12 +19,12 @@ def read_root(item: inputProduct.Item):
 	return lista
 
 
-	# validate_input_ninja(item)
+	validate_input_ninja(item)
 
-	# return {
-	# 	"dimensao": {
-	# 					"altura": item.heightProduct,
-	# 					"largura": item.widthProduct
-	# 				},
-	# 	"peso": item.weightProduct
-	# }
+	return {
+		"dimensao": {
+						"altura": item.heightProduct,
+						"largura": item.widthProduct
+					},
+		"peso": item.weightProduct
+	}

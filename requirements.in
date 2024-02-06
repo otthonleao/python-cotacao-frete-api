@@ -1,0 +1,6 @@
+fastapi                      # Framework pra desenvolver API
+uvicorn                      # Servidor Web que funciona no protocolo ASGI
+typer                        # Permite utilizar linhas de comando para administrar o projeto
+dynaconf                     # Gerencia as configurações e facilitar o uso de cloud e containers
+jinja2                       # Biblioteca para fazer templates
+rich                         # Criar tabela no terminal

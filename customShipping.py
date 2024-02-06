@@ -20,3 +20,4 @@ def validate_input_custom(item: inputProduct.Item):
 		}
 	else:
 		return False
+	
